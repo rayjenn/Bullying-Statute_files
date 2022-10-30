@@ -1,0 +1,535 @@
+/* New Online Sunshine Styles*/
+
+body{
+margin: 0px;
+padding: 0px;
+background: #FFFFFF;
+font: 10pt "Trebuchet MS", Arial, Helvetica, sans-serif;
+color: #000080;
+}
+
+/*table, tr, td, {
+margin: 0px;
+padding: 0px;
+background: #FFFFFF;
+font: 10pt "Trebuchet MS", Arial, Helvetica, sans-serif;
+color: #000080;
+text-align:left;
+}*/
+
+#maintable
+{
+font: 10pt "Trebuchet MS", Arial, Helvetica, sans-serif;
+margin: 0px auto;
+padding: 0px;
+border: 0px solid #000000;
+text-align:center;
+vertical-align:top;
+}
+
+#printheader
+{display:none;}
+
+#date
+{background-image:url(/images/datebg.gif);
+background-repeat:no-repeat;
+font: 10pt "Trebuchet MS", Arial, Helvetica, sans-serif;
+color: #000080;
+padding-top:7px;
+padding-bottom:4px;
+text-align:center;
+vertical-align:top;
+}
+
+#searchstatutes
+{
+background-image:url(/images/search_statutes_bg.gif);
+background-repeat:no-repeat;
+font: 10pt "Trebuchet MS", Arial, Helvetica, sans-serif;
+color: #000080;
+text-align:left;
+padding-top:1px;
+height:32px;
+}
+
+#searchstatutes > div
+{
+	max-width: 610px;
+}
+
+#menu-options
+{
+	padding-top: 2px;
+	float: left;
+}
+
+#new-leg-search
+{
+	margin: -2px 4px 4px 0px;
+	float:right;
+	border: none;
+}
+
+.ssform
+{
+font: 11px "Trebuchet MS", Arial, Helvetica, sans-serif;
+vertical-align:middle;
+margin-bottom:5px;
+}
+
+
+/* navigational menu */
+/* removed li*/
+           
+#menu dl, dt, dd {
+margin: 0px;
+padding: 0px;
+list-style-type: none;
+font: 9pt "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+#menu {
+width: 149px;
+background-color:#000080;
+font: 10pt "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#menu dl {
+margin: 0px 0px;
+padding: 0px;
+}
+
+#menu dt {
+cursor: pointer;
+color: #FFFFFF;
+text-align: center;
+font-weight: normal;
+background: #000080;
+border-bottom: 1px solid #0658A8;
+font: 10pt "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#menu dd {
+border: 1px solid #0658A8;
+}
+#menu li {
+list-style:none;
+text-align: center;
+}
+#menu ul {
+margin: 0px;
+padding: 0px 0px;
+font: 9pt "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#menu li a {  	/*submenu items */
+color: #000080;
+text-decoration: none;
+display: block;
+height: 100%;
+padding: 0px;
+text-align: center;
+border-bottom: 1px solid #0658A8;
+background-color: #deeefd;
+}
+
+#menu dt a {    /*menu items without submenus */
+color: #FFFFFF;
+text-decoration: none;
+font: 10pt "Trebuchet MS", Arial, Helvetica, sans-serif;
+display: block;
+height: 100%;
+border: 0px none;
+}
+#menu li a:hover{
+background: #C6E2FD;
+}
+#menu dt a:hover {
+color: yellow;
+font: 10pt "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+/* end navigational menu */
+
+
+#content
+{padding-left: 15px;
+padding-bottom:15px;
+padding-top: 10px;
+vertical-align:top;
+font: 10pt "Trebuchet MS", Arial, Helvetica, sans-serif;
+text-align:left;
+line-height: 1.5em;
+}
+
+#content a, a:visited, a:visited:hover
+{font: 10pt "Trebuchet MS", Arial, Helvetica, sans-serif;
+color: #000080;}
+
+#content a:hover
+{font: 10pt "Trebuchet MS", Arial, Helvetica, sans-serif;
+color: red;}
+
+#content #frontpage
+{margin-right: 25px;}
+
+#content #frontpage li.welcome
+{list-style: disc inside;
+padding-left: 25px;
+}
+
+/*#content table tr td li
+{
+list-style: disc outside;
+margin-left: 20px;
+font: 10pt "Trebuchet MS", Arial, Helvetica, sans-serif;
+color: #000080;
+line-height: 1.5em;
+}
+*/
+#content dd
+{margin-left:20px;
+display:block;}
+
+
+#content #frontpage strong
+{letter-spacing: 0.1em;}
+
+#footer
+{background-image:url(/images/footerbg.gif);
+background-repeat:no-repeat;
+width:760px;
+height:31px;
+color:#FFFFFF;
+font: 9pt "Trebuchet MS", Arial, Helvetica, sans-serif;
+padding-top: 2px;
+text-align:center;
+vertical-align:top;
+}
+
+#footer a, #footer a:hover, #footer a:visited
+{color:#FFFFFF;
+font: 9pt "Trebuchet MS", Arial, Helvetica, sans-serif;}
+/* End New Online Sunshine Styles */
+
+
+
+
+#content dl, dt, dd
+{font: 10pt "Trebuchet MS", Arial, Helvetica, sans-serif;
+color: #000080;}
+
+
+
+
+
+
+
+/*  START "H" TAGS  */
+H1
+{
+	font-size : 15pt;
+	font-family : georgia, times, serif;
+	font-weight : bold;
+	color : #000080;
+}
+
+H2
+{
+	font-size : 15pt;
+	font-family : georgia, times, serif;
+	font-weight : normal;
+	color : #000080;
+	line-height: 1.2em;
+}
+
+H3
+{
+	font-size : 14pt;
+	font-family : georgia, times, serif;
+	font-weight : normal;
+
+	color : #000080;
+}
+
+H4
+{
+	font-size : 12pt;
+	font-family : georgia, times, serif;
+	font-weight : bold;
+	color : #000080;
+}
+
+H5
+{
+	font-size : 10pt;
+	font-family : georgia, times, serif;
+	font-weight : bold
+	color : #000080;
+}
+
+B.blue,strong.blue
+{
+	color : #000080;
+	font-size : 10pt;
+	font-family : "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight : bold
+}
+
+B.georgia
+{
+	font-size : 12pt;
+	font-family : georgia, times, serif;
+	font-weight : bold;
+	color : #000080;
+}
+
+/*START "LI" TAGS*/
+
+.fls_list  		/*Committee page bullets and member page bullets*/
+{
+  list-style-type: none;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	list-style-image: none;
+}
+
+UL.fls_list li
+{
+   list-style-type: none;
+	padding-top: 2px;
+	padding-bottom: 2px;
+    font-size:10pt;
+	list-style-image: none;
+}
+
+
+UL.fls_list_bulleted
+{
+padding-left:0; margin-left:0; list-style-type:none;
+}
+
+UL.fls_list_bulleted
+{
+	list-style: square url(/images/bullets/hd3_list.gif);
+	padding-left:5px; margin-left:9px;
+}
+
+
+
+UL.fls_list_bulleted li
+{	
+
+    margin-left: 9px;
+	padding-left:5px;	
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+/*
+UL.fls_list_bulleted_callout
+{
+padding-left:0; margin-left:10px; list-style-type:none;
+}
+
+.fls_list_bulleted_callout
+{
+	margin-left: 10px;
+	padding-left: 0px;	
+	padding-top: 1px;
+	padding-bottom: 1px;
+	list-style-image: url(/Images/bullets/navy.gif);
+
+}
+
+UL.fls_list_bulleted_callout li
+{
+	margin-left: 10px;
+	padding-left: 0px;	
+	padding-top: 1px;
+	padding-bottom: 1px;
+	list-style-image: url(/Images/bullets/navy.gif);
+}
+*/
+
+P
+{
+	font-family : "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size : 10pt;
+	color : #000080;
+}
+
+
+ 
+
+
+
+TD
+{
+	font-family : "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size : 10pt;
+	color: #000080;	
+}
+
+
+
+
+
+
+/*  END "TD" TAGS  */
+
+/* START "TR" TAGS */
+.SciFilter
+{
+  background-color : #deeefd;
+  font: 13px "Trebuchet MS", Arial, Helvetica, sans-serif;
+  color: #000080;
+ 
+  text-align:center;
+  }
+
+
+TR.glossaryLetters
+{
+  background-color : #deeefd;
+  font-family : "Trebuchet MS", Arial, Helvetica, sans-serif;
+  color : #000080;
+  font-size : 10pt;
+}
+
+
+/* END "TR" TAGS */
+/*  START "UL" TAGS  */
+UL.arrow 
+{
+list-style : url(images/buttons/arrows/blue.gif);
+}
+
+
+/*  END "UL" TAGS  */
+
+
+/*  START CUSTOM TAGS  */
+
+.Statute_Text			/*  statutes  */
+{
+	font-size : 10pt;
+	font-family : "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color : Black
+}
+
+tr.boxHeader td				/*  statutes, glossary, legistore, employment  */
+{
+  background-color : #000080;
+  font-family : "Trebuchet MS", Arial, Helvetica, sans-serif;
+  color : #FFFFFF;
+  font-weight : bold;
+  font-size : 10pt;
+}
+
+tr.boxContent td			/*  statutes, glossary, legistore, employment  */
+{
+  background-color : #deeefd;
+  font-family : "Trebuchet MS", Arial, Helvetica, sans-serif;
+  color : #000080;
+  font-size : 10pt;
+  text-align:left;
+}
+
+tr.resultsnav td			/*  statutes  */
+{
+  background-color : #deeefd;
+  font-family : "Trebuchet MS", Arial, Helvetica, sans-serif;
+  color : #000080;
+  font-size : 10pt;
+  text-align:left;
+  padding-left: 20px;
+}
+
+
+/* Begin Lobbyist styles */
+
+P.DL
+{
+ 	color : Black;
+ 	font-size : inherit;
+ 	font-family : inherit;
+	width: 90%;
+	padding-left: 10px;
+}  
+
+.dllinks
+{
+	padding-left: 10px;
+}
+
+.dlupd
+{
+	padding-left: 20px;
+	width: 90%;
+}
+
+.dlinstr
+{
+	font-size: 8pt;
+	font-family: trebuchet MS, helvetica, sans-serif;
+	font-weight: normal;
+	color: inherit;
+	background-color: #e2f0fc;
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-right: 15px;
+	width: 90%;
+}
+
+.expReportBox {
+	  background-color : #000080;
+	  font-family : trebuchet MS, helvetica, sans-serif;
+	  color : #FFFFFF;
+	  font-weight : normal;
+	  font-size : 10pt; 
+	  width: 425px;
+}
+.expReportBox td {
+	color : #FFFFFF;
+}
+.row0 td {
+	background-color: #E2F0FC;
+	font-family : trebuchet MS, helvetica, sans-serif;
+	color : #000080;
+	font-size : 10pt;
+	}   
+
+.row1 td {
+	background-color: white;
+	color: #000080;
+	font-family : trebuchet MS, helvetica, sans-serif;
+	font-size : 10pt;
+	} 
+
+
+.expReportAsterisk {
+	color: #CC0000;
+	}
+
+.expReportRed
+{
+ 	color : #CC0000;
+ 	font-size : 13px;
+ 	font-family : trebuchet MS, helvetica, sans-serif;
+}  
+
+
+/* end Lobbyist Styles */
+
+
+/*  END CUSTOM TAGS  */
+
+
+
+.centered{
+text-align:center;
+}
+
+
+.committeeSubtext{
+font-size: 11px;
+color:#000;
+}

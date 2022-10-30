@@ -1,0 +1,126 @@
+@import url(Paragraph.css);
+@import url(Table.css);
+
+span.Directions
+{
+	font-size: .75em;
+	text-decoration: underline;
+}
+
+span.HorizontalRule
+{
+}
+
+/* Used with Horizontal Rule */
+span.Fixed
+{
+}
+
+/* Used with Horizontal Rule */
+span.Variable
+{
+}
+
+/* Used with Horizontal Rule */
+span.TypeFull
+{
+	display: block;
+}
+
+sup
+{
+	vertical-align: baseline;
+	font-size: .75em;
+	position: relative;
+	top: -.6em;
+}
+
+sup a
+{
+	font-size: inherit;
+}
+
+span.Reference
+{
+	font-size: .75em !important;
+	vertical-align: super;
+}
+
+span.Reference a
+{
+	font-size: inherit;
+}
+
+div.Section .SectionNumber
+{
+	font-weight: bold;
+	margin-right: 1em;
+	display: inline;
+}
+
+div.Section .Catchline
+{
+	font-weight: bold;
+	display: inline;
+}
+
+div.Section .Catchline span.EmDash
+{
+	display: inline;
+	font-weight: normal;
+}
+
+div.Note span.Indent
+{
+	padding: 0;
+	margin: 0;
+}
+
+div.Section, div.Subsection, div.Paragraph, div.SubParagraph, div.SubSubParagraph, div.SubSubSubParagraph, div.SubSubSubSubParagraph, div.Note, div.History
+{
+	text-indent: 1em;
+}
+
+div.Paragraph .Reversion
+{
+	text-indent: 0;
+	margin-left: 0;
+}
+
+span.HistoryTitle, .NoteTitle
+{
+	font-weight: bold;
+	display: inline;
+}
+
+div.Note p, div.Note span.Text, div.Note span.EmDash, span.NoteTitle, div.History span.HistoryText, span.HistoryTitle, div.History span.EmDash
+{
+	font-size: .83em;
+}
+
+div.Note p span, div.Note span span
+{
+	font-size: 1em;
+}
+
+
+div.Note span.Reference, div.History span.Reference
+{
+	font-size: .66em;
+}
+
+div.History span.Text, div.Note span.Intro
+{
+	display: inline;
+}
+
+.Catchline span.EmDash, div.History span.EmDash, div.Note span.EmDash
+{
+	display: inline;
+}
+
+div.VerticalEllipsis
+{
+	text-align: center;
+	letter-spacing: 3em;
+}

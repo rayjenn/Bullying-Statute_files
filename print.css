@@ -1,0 +1,320 @@
+/* New Online Sunshine Styles*/
+
+body{
+margin: 0px;
+padding: 0px;
+background: #FFFFFF;
+font: 10pt "Trebuchet MS", Arial, Helvetica, sans-serif;
+color: #000000;
+text-align:center;
+}
+
+
+#maintable
+{
+font: 10pt "Trebuchet MS", Arial, Helvetica, sans-serif;
+padding: 0px;
+border: 0px solid #000000;
+text-align:center;
+vertical-align:top;
+}
+
+#printheader
+{display:block;
+height:49px;
+background-image:url(/images/Online_Sunshine.jpg);
+background-repeat:no-repeat;}
+
+tr#logotag
+{display:none}
+
+td#date
+{display:none}
+
+td#searchstatutes
+{display:none}
+
+#leftcol
+{display:none;
+width: 0px;}
+
+#menu
+{display:none}
+
+
+
+#content table
+{width: 98%;
+vertical-align:top;
+font: 10pt "Trebuchet MS", Arial, Helvetica, sans-serif;
+text-align:left;
+line-height: 1.5em;
+}
+
+#content a, a:visited, a:visited:hover
+{font: 10pt "Trebuchet MS", Arial, Helvetica, sans-serif;
+color: #000080;}
+
+#content a:hover
+{font: 10pt "Trebuchet MS", Arial, Helvetica, sans-serif;
+color: red;}
+
+#content #frontpage
+{margin-right: 25px;}
+
+#content #frontpage li.welcome
+{list-style: disc inside;
+padding-left: 25px;
+}
+
+#content table tr td li
+{
+list-style: disc outside;
+margin-left: 20px;
+font: 10pt "Trebuchet MS", Arial, Helvetica, sans-serif;
+color: #000080;
+line-height: 1.5em;
+}
+
+#content dd
+{margin-left:20px;
+display:block;}
+
+
+#content #frontpage strong
+{letter-spacing: 0.1em;}
+
+#footer
+{
+background-image: none;
+border: 1px solid #000080;
+width:100%;
+padding: 0px;
+color:#000080;
+font: 9pt "Trebuchet MS", Arial, Helvetica, sans-serif;
+text-align:center;
+vertical-align:middle;
+}
+
+#footer a, a:hover, a:visited
+{color:#000080;
+font: 9pt "Trebuchet MS", Arial, Helvetica, sans-serif;}
+/* End New Online Sunshine Styles */
+
+
+
+
+#content dl, dt, dd,
+{font: 10pt "Trebuchet MS", Arial, Helvetica, sans-serif;
+color: #000080;}
+
+
+
+H1
+{
+	font-size : 15pt;
+	font-family : georgia, times, serif;
+	font-weight : bold;
+	color : #000080;
+}
+
+H2
+{
+	font-size : 15pt;
+	font-family : georgia, times, serif;
+	font-weight : normal;
+	color : #000080;
+	line-height: 1.2em;
+}
+
+H3
+{
+	font-size : 14pt;
+	font-family : georgia, times, serif;
+	font-weight : normal;
+	color : #000080;
+}
+
+H4
+{
+	font-size : 12pt;
+	font-family : georgia, times, serif;
+	font-weight : bold;
+	color : #000080;
+}
+
+H5
+{
+	font-size : 10pt;
+	font-family : georgia, times, serif;
+	font-weight : bold
+	color : #000080;
+}
+
+B.blue,strong.blue
+{
+	color : #000080;
+	font-size : 10pt;
+	font-family : "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight : bold
+}
+
+B.georgia
+{
+	font-size : 12pt;
+	font-family : georgia, times, serif;
+	font-weight : bold;
+	color : #000080;
+}
+
+/*START "LI" TAGS*/
+
+.fls_list  		/*Committee page bullets and member page bullets*/
+{
+  list-style-type: none;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	text-indent: -20px;
+	list-style-image: none;
+}
+
+UL.fls_list li
+{
+   list-style-type: none;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	text-indent: -20px;
+	list-style-image: none;
+}
+
+
+
+UL.fls_list_bulleted
+{
+padding-left:0; margin-left:0; list-style-type:none;
+}
+
+UL.fls_list_bulleted
+{
+	list-style: square url(/images/bullets/hd3_list.gif);
+	padding-left:5px; margin-left:9px;
+}
+
+
+
+UL.fls_list_bulleted li
+{	
+
+    margin-left: 9px;
+	padding-left:5px;	
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+/*
+UL.fls_list_bulleted_callout
+{
+padding-left:0; margin-left:10px; list-style-type:none;
+}
+
+.fls_list_bulleted_callout
+{
+	margin-left: 10px;
+	padding-left: 0px;	
+	padding-top: 1px;
+	padding-bottom: 1px;
+	list-style-image: url(/Images/bullets/navy.gif);
+
+}
+UL.fls_list_bulleted_callout li
+{
+	margin-left: 10px;
+	padding-left: 0px;	
+	padding-top: 1px;
+	padding-bottom: 1px;
+	list-style-image: url(/Images/bullets/navy.gif);
+}
+*/
+
+P
+{
+	font-family : "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size : 10pt;
+	color : #000080;
+}
+
+
+TD
+{
+	font-family : "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size : 10pt;
+	color: #000080;	
+}
+
+
+.SciFilter
+{
+  background-color : #deeefd;
+  font: 13px "Trebuchet MS", Arial, Helvetica, sans-serif;
+  color: #000080;
+ 
+  text-align:center;
+  }
+
+
+TR.glossaryLetters
+{
+  background-color : #deeefd;
+  font-family : "Trebuchet MS", Arial, Helvetica, sans-serif;
+  color : #000080;
+  font-size : 10pt;
+}
+
+
+UL.arrow 
+{
+list-style : url(images/buttons/arrows/blue.gif);
+}
+
+
+/*  CUSTOM TAGS  */
+
+.Statute_Text			/*  statutes  */
+{
+	font-size : 10pt;
+	font-family : "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color : Black
+}
+
+tr.boxHeader td				/*  statutes, glossary, legistore, employment  */
+{
+  background-color : #000080;
+  font-family : "Trebuchet MS", Arial, Helvetica, sans-serif;
+  color : #FFFFFF;
+  font-weight : bold;
+  font-size : 10pt;
+}
+
+tr.boxContent td			/*  statutes, glossary, legistore, employment  */
+{
+  background-color : #deeefd;
+  font-family : "Trebuchet MS", Arial, Helvetica, sans-serif;
+  color : #000080;
+  font-size : 10pt;
+  text-align:left;
+}
+
+tr.resultsnav td			/*  statutes  */
+{
+  background-color : #deeefd;
+  font-family : "Trebuchet MS", Arial, Helvetica, sans-serif;
+  color : #000080;
+  font-size : 10pt;
+  text-align:left;
+  padding-left: 20px;
+}
+
+
+.centered{
+text-align:center;
+}

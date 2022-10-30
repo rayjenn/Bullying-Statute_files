@@ -1,0 +1,35 @@
+/* $Header: \\\\NTLEG07\\RCS\\NTLEG18\\wwt\\Blocks\\css\\mozilla.css,v 1.2 2000-08-19 12:37:38-04 eckhart_curt Exp custom_jobs $ */
+/* This file records the Netscape-specific tweeks to make HTML
+   elements render the same under both browsers.
+   
+   See also the companion file msie.css for Internet Explorer tweeks.
+*/
+/* RCS Changelog
+$Log: mozilla.css,v $
+Revision 1.2  2000-08-19 12:37:38-04  eckhart_curt
+Moved in from development server
+
+Revision 1.0  2000-07-20 18:18:34-04  eckhart_curt
+Initial revision
+
+Revision 1.1  2000-02-24 12:36:08-05  eckhart_curt
+*  Added RCS control coments as appropriate
+*  Defined browser-specific styles
+
+Revision 1.0  2000-02-24 11:19:34-05  eckhart_curt
+Initial revision
+
+*/
+
+
+FORM.SCfilter {
+	color : #C1CDC1;
+	margin-top:-16px; /* Adjust the SCfilter table to abut the table above it */
+}
+
+PRE{		
+		font-family : monospace;
+	}
+  B{
+		font : bold;
+	}
